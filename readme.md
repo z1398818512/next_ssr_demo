@@ -18,11 +18,11 @@
 
 -参考<a href="https://github.com/zeit/next-plugins/tree/master/packages/next-less" target="_blank" rel="nofollow">@zeit/next-less</a>
 
-##静态文件
+## 静态文件
 
 - 在根目录下新建文件夹叫 static。代码可以通过/static/来引入相关的静态资源。
 
-##<head>
+## <head>
 
 - 设置一个内置组件来装载<head>到页面中，定义 key 属性来避免重复的<head>标签，保证<head>只渲染一次
 
