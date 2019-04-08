@@ -6,20 +6,26 @@
 
 - 安装
 
+```bash
   npm install --save @zeit/next-less less
+```
 
+```bash
   yarn add @zeit/next-less less
+```
 
 - 配置 next.config.js
 
+```bash
   const withLess = require('@zeit/next-less')
   module.exports = withLess({
   cssModules: true
   })
+```
 
--less 用法和以前基本一致
+- less 用法和以前基本一致
 
--参考<a href="https://github.com/zeit/next-plugins/tree/master/packages/next-less" target="_blank" rel="nofollow">@zeit/next-less</a>
+- 参考<a href="https://github.com/zeit/next-plugins/tree/master/packages/next-less" target="_blank" rel="nofollow">@zeit/next-less</a>
 
 ## 静态文件
 
@@ -31,26 +37,15 @@
 
 ```bash
 import Head from 'next/head'
-
 export default () =>
-
   <div>
-
     <Head>
-
       <title>My page title</title>
-
       <meta name="viewport" content="initial-scale=1.0, width=device-width" key="viewport" />
-
     </Head>
-
     <Head>
-
       <meta name="viewport" content="initial-scale=1.2, width=device-width" key="viewport" />
-
     </Head>
-
     <p>Hello world!</p>
-
   </div>
 ```
