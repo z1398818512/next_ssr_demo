@@ -29,6 +29,7 @@
 
 - 设置一个内置组件来装载<head>到页面中，定义 key 属性来避免重复的<head>标签，保证<head>只渲染一次
 
+```bash
 import Head from 'next/head'
 
 export default () =>
@@ -52,3 +53,4 @@ export default () =>
     <p>Hello world!</p>
 
   </div>
+```
