@@ -5,10 +5,13 @@
 ### 像以前项目中那样使用 Less
 
 - 安装
+
   npm install --save @zeit/next-less less
   or
   yarn add @zeit/next-less less
+
 - 配置 next.config.js
+
   const withLess = require('@zeit/next-less')
   module.exports = withLess({
   cssModules: true
@@ -38,7 +41,5 @@ export default () =>
     <Head>
       <meta name="viewport" content="initial-scale=1.2, width=device-width" key="viewport" />
     </Head>
-
     <p>Hello world!</p>
-
   </div>
